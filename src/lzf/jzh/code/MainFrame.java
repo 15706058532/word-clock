@@ -41,7 +41,6 @@ public class MainFrame extends JDialog {
             public void keyPressed(KeyEvent e) {
                 //退出指令键盘敲击 l o v e 键
                 int keyCode = e.getKeyCode();
-                System.out.println(keyCode);
                 if (!keys.isEmpty() && keys.get(keys.size() - 1) == keyCode) {
                     return;
                 }
