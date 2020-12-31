@@ -348,9 +348,9 @@ public class Function {
                             for (int i = 0; i < monthLabels.size(); i++) {
                                 LzfRotateLabel label = monthLabels.get(i);
                                 if (i % 2 == 0) {
-                                    label.setVisible(true);
-                                } else {
                                     label.setVisible(false);
+                                } else {
+                                    label.setVisible(true);
                                 }
                                 label.updateUI();
                             }
